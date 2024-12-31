@@ -1,50 +1,25 @@
-# Customer Queues Simulation
+Introduction
 
-This repository contains simulations for different queuing systems using Python. The project is divided into four main directories, each focusing on different aspects of queuing theory, including customer priority handling, multiple server systems, simple queues, and variance reduction techniques.
+The "Customer Queues Simulation" project explores different queuing systems using Python, focusing on the application of queuing theory to model customer wait times and service processes. The project is organized into four main directories, each dedicated to different aspects of queuing, including customer priority handling, multiple server systems, simple queues, and variance reduction techniques. Through these simulations, the project aims to provide a deeper understanding of queuing dynamics and the impact of various policies and configurations on system performance.
 
-## Directory Structure
+Directory Structure
 
-### 1. **Simple_Queue**
-   - **Files:**
-     - `Simple_Queue.pdf`: A report comparing the performance of simple queue systems under FIFO (First-In, First-Out) and LIFO (Last-In, First-Out) disciplines.
-     - `First_in_First_out.py`: A Python file implementing a simple M/M/1 queue under the FIFO discipline.
-     - `Last_in_First_out.ipynb`: A Python file implementing a simple M/M/1 queue under the LIFO discipline.
+The project is structured into four directories, each containing simulations and associated reports on specific queuing models. The Simple_Queue directory compares simple queuing systems under FIFO (First-In, First-Out) and LIFO (Last-In, First-Out) disciplines, with files implementing the M/M/1 queue under both rules. The Multiple_Servers directory explores the performance of multiple server systems, including shared and tandem queues, with simulations analyzing metrics such as mean delay and system performance. The Customers_with_priority directory focuses on queuing systems with customer priority rules, simulating scenarios with and without preemption. Finally, the Variance_Reduction directory demonstrates techniques for reducing variance in simulations, applying methods like antithetic variates and control variates to improve accuracy.
 
-### 2. **Multiple_Servers**
-   - **Files:**
-     - `Multiple_Servers.pdf`: A report exploring the performance of multiple server systems, including tandem queues and shared queues, analyzing metrics like mean delay and system performance.
-     - `Shared_queue_by_two_servers.ipynb`: A Python file simulating shared queues handled by two servers.
-     - `Tandem_queues.ipynb`: A Python file simulating a series of tandem queues.
+Reports
 
-### 3. **Customers_with_priority**
-   - **Files:**
-     - `Customer_with_priority.pdf`: A detailed report explaining the impact of customer priority rules on queuing system performance, including scenarios with and without preemption.
-     - `Preemption_policy.ipynb`: A Jupyter notebook implementing the simulation where high-priority customers preempt low-priority customers.
-     - `Waiting_policy.ipynb`: A Jupyter notebook implementing the simulation where priority is considered without preemption.
+Each directory includes a PDF report that explains the simulation methods, experimental setup, and results for the respective queuing systems. These reports provide insights into various scenarios explored, such as the impact of customer priority and multiple servers on system performance, and the application of variance reduction techniques. They also include analysis of key metrics, such as mean delays and system utilization, and draw conclusions about the effectiveness of different queuing strategies in real-world applications.
 
-### 4. **Variance_Reduction**
-   - **Files:**
-     - `Variance_reduction.pdf`: A report on techniques for variance reduction, focusing on antithetic and control variate methods in queuing simulations.
-     - `Antithetic_variate.ipynb`: A Python file demonstrating the antithetic variate technique for variance reduction.
-     - `Control_variate.ipynb`: A Python file demonstrating the control variate technique for variance reduction.
+How to Run the Notebooks
 
-## Reports
-Each of the directories contains a PDF report that explains the simulation methods, experimental setup, and results for the respective queuing systems. These reports provide insights into the different scenarios explored, the metrics analyzed, and the conclusions drawn from the simulations.
+To run the simulations, clone the repository and navigate to the desired directory. Once inside the directory, you can execute the Python files or Jupyter notebooks to explore the respective simulations. The instructions provided in the repository allow for easy execution of the notebooks:
 
-## How to Run the Notebooks
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/saurabhshivpuje/Customer_Queues.git
-   cd Customer_Queues
-   ```
-2. Navigate to the desired directory and run the Jupyter notebooks to explore the simulations:
-   ```bash
-   cd <directory_name>
-   python3 <python_file_name>
-   or 
-   jupyter <notebook_name>
-   
-   ```
+git clone https://github.com/saurabhshivpuje/Customer_Queues.git
+cd Customer_Queues
+cd <directory_name>
+python3 <python_file_name> 
+or 
+jupyter <notebook_name>
+Summary
 
-## Summary
-This project provides a comprehensive exploration of various queuing models, including priority-based systems, multiple servers, and methods to improve the accuracy of simulations through variance reduction. The simulations and reports are aimed at providing a deeper understanding of queuing theory concepts and their practical applications.
+This project provides an in-depth exploration of various queuing models and simulation techniques. It covers customer priority handling, multiple server systems, and methods for improving simulation accuracy through variance reduction. The simulations and corresponding reports offer valuable insights into queuing theory concepts and their practical applications, making this project a useful resource for understanding and optimizing customer queuing systems.
