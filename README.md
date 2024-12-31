@@ -10,16 +10,4 @@ Reports
 
 Each directory includes a PDF report that explains the simulation methods, experimental setup, and results for the respective queuing systems. These reports provide insights into various scenarios explored, such as the impact of customer priority and multiple servers on system performance, and the application of variance reduction techniques. They also include analysis of key metrics, such as mean delays and system utilization, and draw conclusions about the effectiveness of different queuing strategies in real-world applications.
 
-How to Run the Notebooks
-
-To run the simulations, clone the repository and navigate to the desired directory. Once inside the directory, you can execute the Python files or Jupyter notebooks to explore the respective simulations. The instructions provided in the repository allow for easy execution of the notebooks:
-
-git clone https://github.com/saurabhshivpuje/Customer_Queues.git
-cd Customer_Queues
-cd <directory_name>
-python3 <python_file_name> 
-or 
-jupyter <notebook_name>
-Summary
-
 This project provides an in-depth exploration of various queuing models and simulation techniques. It covers customer priority handling, multiple server systems, and methods for improving simulation accuracy through variance reduction. The simulations and corresponding reports offer valuable insights into queuing theory concepts and their practical applications, making this project a useful resource for understanding and optimizing customer queuing systems.
